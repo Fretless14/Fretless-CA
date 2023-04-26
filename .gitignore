@@ -1,6 +1,9 @@
 /data
 .docker/
 vars
+pki/
+openssl-easyrsa*
+x509*/
 
 # Keys
 *.pub
