@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+  fretless-ca:
+    container_name: FretlessCA
+    build:
+      context: ./
+    user: fretless-ca-user:fretless-ca-group
+    restart: always
+    ports:
+      - 8089:8089
+    volumes:
+      - $CA_DIR:/pki
+
+volumes:
+  fretless-ca-data:

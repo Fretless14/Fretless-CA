@@ -1,0 +1,27 @@
+.gitignore
+.gitmodules
+data/
+Archive/
+Scratches/
+dist/
+*venv*/
+
+*docker-compose*
+*Dockerfile*
+*dockerfile*
+README.md
+
+
+
+# Environment
+*.env
+*.session
+
+# Keys
+#*.pub
+#*.pem
+#*.key
+#*.crt
+#*.srv
+#*.req
+#*.srl
